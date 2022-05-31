@@ -3,7 +3,7 @@
 
 
 ## 开发环境说明
-- 前端开发：HBuiler，Visual Studio Code
+- 前端开发：HBuilder，Visual Studio Code
 - 后端开发：IDEA 2022.1
 
 ## 基础设置搭建步骤
