@@ -3,15 +3,15 @@
 
 
 ## 开发环境说明
-- 前端开发：HBuilder，Visual Studio Code
+- 前端开发：HBuilder X，Visual Studio Code
 - 后端开发：IDEA 2022.1
 
 ## 基础设置搭建步骤
 ### 云数据库配置
 
 - 申请云服务器，在服务器安装配置好MySql，保存用户名密码
-- 使用Navicat连接云数据库，并创建spring_db
-- 在spring_db运行如下sql语句，创建表
+- 使用Navicat连接云数据库，并创建`spring_db`
+- 在`spring_db`运行如下sql语句，创建表
 ```
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -50,6 +50,7 @@ $ npm install
 ### 项目配置
 - 加载maven项目
 - 在项目文件夹的`src/main/resources/config/application.yaml`中填入自己的数据库连接信息
+- 将`src/main/resources/static/js/main.js`中`axios`请求的ip地址换为自己的云服务器地址
 - 启动`MusicApplication`
 - 浏览器输入`http://localhost`即可访问项目
 
