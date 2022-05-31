@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+logging:
+  level:
+    root: info
+
+#配置数据库连接
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://182.61.44.17:3306/spring_db
+    username: lie209
+    password: lie209520
+    type: com.alibaba.druid.pool.DruidDataSource
