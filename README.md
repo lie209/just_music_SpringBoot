@@ -1,4 +1,4 @@
-# 基于Vue和SpingBoot的在线音乐播放器的设计与实现
+# 基于Vue和SpringBoot的在线音乐播放器的设计与实现
 
 
 
